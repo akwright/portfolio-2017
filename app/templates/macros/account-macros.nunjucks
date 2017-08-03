@@ -1,0 +1,11 @@
+{% macro loggedIn(loggedIn=false) %}
+<a class="account-picture" href="/my-account"></a>
+
+{% if loggedIn == false %}
+<a class="account-link" href="/login">Login</a>
+{% else %}
+<a class="m-account-link" href="/my-account">My Account</a>
+<a class="m-account-link" href="/logout">Logout</a>
+{% endif %}
+
+{% endmacro %}

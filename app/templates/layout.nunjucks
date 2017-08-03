@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Key Life Network Interactive Prototype</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="site">
+  {% include "partials/header.nunjucks" %}
+
+  <main class="site-content {% block page_class %}{% endblock %}" role="content">
+    {% block site_content %}{% endblock %}
+
+    {% include "partials/footer.nunjucks" %}
+  </main>
+
+  <script src="js/bundle.js"></script>
+
+</body>

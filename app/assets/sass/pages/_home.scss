@@ -1,0 +1,28 @@
+.site-content--homepage {
+  @supports(display: grid) {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+  }
+}
+
+  .hero--homepage {
+    min-height: 600px;
+
+    @supports(display: grid) {
+      grid-column: span 8;
+    }
+  }
+
+  .author--homepage {
+    @supports(display: grid) {
+      grid-column: span 4;
+    }
+  }
+
+  .highlight--homepage,
+  .content-list--homepage {
+    @supports(display: grid) {
+      grid-column: span 12;
+    }
+  }

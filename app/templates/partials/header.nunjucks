@@ -1,0 +1,19 @@
+<header class="site-header" role="header">
+    <a class="header-logo" href=""></a>
+
+    {% import 'macros/nav-primary-macros.nunjucks' as nav %}
+    {{ nav.active('search') }}
+
+    <hr class="header-sep">
+
+    {% import 'macros/nav-secondary-macros.nunjucks' as secondary_nav %}
+    {{ secondary_nav.active('about') }}
+
+    <hr class="header-sep">
+
+    <div class="header-account  account">
+      {% import 'macros/account-macros.nunjucks' as account %}
+      {{ account.loggedIn(true) }}
+      
+    </div>
+  </header>

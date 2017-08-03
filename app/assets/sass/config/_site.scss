@@ -1,0 +1,27 @@
+.site {
+  @supports(display: grid) {
+    display: grid;
+    grid-template-columns: 100% repeat(12, [col] 1fr);
+    grid-template-areas: "content  content"
+                         "header  header";
+
+    @media (min-width: 600px) {
+      grid-template-columns: 200px repeat(12, [col] 1fr);
+      grid-template-areas: "header  content"
+                           "header  content";
+    }
+
+    &-header {
+      grid-area: header;
+
+      @media (min-width: 600px) {
+        grid-column: span 200px;
+      }
+    }
+
+    &-content {
+      grid-area: content;
+      grid-column: span 12;
+    }
+  }
+}

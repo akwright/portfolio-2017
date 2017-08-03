@@ -1,0 +1,10 @@
+<footer class="site-footer" role="footer">
+  <a class="footer-link" href="#contact">Contact</a>
+  <a class="footer-link" href="#sitemap">Sitemap</a>
+  <p class="footer-copyright">&copy;2001-<script>document.write(new Date().getFullYear());</script> Key Life Network. All rights reserved.</p>
+  <p class="footer-social social-icons">
+    <a class="social-icons__link" href="#klnFB">F</a>
+    <a class="social-icons__link" href="#klnTW">K</a>
+    <a class="social-icons__link" href="#klnPI">P</a>
+  </p>
+</footer>

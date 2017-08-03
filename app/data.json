@@ -1,0 +1,86 @@
+{
+  "articles": [
+    {
+      "url": "#/articles/article-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Article Title Goes Here",
+      "excerpt": "This is an excerpt of the article content.",
+      "author": "Erik Guzman",
+      "published": "July 31, 2017"
+    },
+    {
+      "url": "#/articles/article-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Long Article Title Goes Here and Here",
+      "excerpt": "This is also an excerpt of the article",
+      "author": "Steve Brown",
+      "published": "July 30, 2017"
+    },
+    {
+      "url": "#/articles/article-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Super Long Article Title Goes Here and Here and Here",
+      "excerpt": "Excerpt for the article goes here and here.",
+      "author": "Robin DeMurga",
+      "published": "July 29, 2017"
+    },
+    {
+      "url": "#/articles/article-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Short Article Title",
+      "excerpt": "This is also an excerpt of the article.",
+      "author": "Chad West",
+      "published": "July 28, 2017"
+    },
+    {
+      "url": "#/articles/article-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Article Title Goes Here",
+      "excerpt": "This is an excerpt of the article.",
+      "author": "Zach Van Dyke",
+      "published": "July 27, 2017"
+    }
+  ],
+  "programs": [
+    {
+      "url": "#/programs/program-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Program Title Goes Here",
+      "excerpt": "This is an excerpt of the program content.",
+      "author": "Erik Guzman",
+      "published": "July 31, 2017"
+    },
+    {
+      "url": "#/programs/program-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Long program Title Goes Here and Here",
+      "excerpt": "This is also an excerpt of the program",
+      "author": "Steve Brown",
+      "published": "July 30, 2017"
+    },
+    {
+      "url": "#/programs/program-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Super Long program Title Goes Here and Here and Here",
+      "excerpt": "Excerpt for the program goes here and here.",
+      "author": "Robin DeMurga",
+      "published": "July 29, 2017"
+    },
+    {
+      "url": "#/programs/program-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Short program Title",
+      "excerpt": "This is also an excerpt of the program.",
+      "author": "Chad West",
+      "published": "July 28, 2017"
+    },
+    {
+      "url": "#/programs/program-name.html",
+      "image": "http://placehold.it/300x150",
+      "title": "Program Title Goes Here",
+      "excerpt": "This is an excerpt of the program.",
+      "author": "Zach Van Dyke",
+      "published": "July 27, 2017"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.site-footer {
+  @supports(display: grid) {
+    grid-column: span 12;
+
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    
+  }
+}

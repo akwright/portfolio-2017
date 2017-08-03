@@ -1,0 +1,23 @@
+@mixin padding($direction:all, $amount:$global-padding, $important: false) {
+  $suffix: null;
+  @if $important == true {
+    $suffix: !important;
+  }
+  @if $direction == all {
+    padding: $amount $suffix;
+  } @else if $direction == vertical {
+    padding-top: $amount $suffix;
+    padding-bottom: $amount $suffix;
+  } @else if $direction == horizontal {
+    padding-left: $amount $suffix;
+    padding-right: $amount $suffix;
+  } @else if $direction == top {
+    padding-top: $amount $suffix;
+  } @else if $direction == right {
+    padding-right: $amount $suffix;
+  } @else if $direction == bottom {
+    padding-bottom: $amount $suffix;
+  } @else if $direction == left {
+    padding-left: $amount $suffix;
+  }
+}
