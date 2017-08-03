@@ -1,7 +1,0 @@
-{% macro active(activePage='about') %}
-<ul class="header-subnav">
-  {% for i in ['about', 'events', 'products', 'contact'] %}
-    <li><a class="{% if activePage == i %}active{% endif %}" href="{{ i }}">{{ i | title }}</a></li>
-  {% endfor %}
-</ul>
-{% endmacro %}

@@ -1,86 +1,82 @@
 {
-  "articles": [
+  "case_studies": [
     {
-      "url": "#/articles/article-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Article Title Goes Here",
-      "excerpt": "This is an excerpt of the article content.",
-      "author": "Erik Guzman",
-      "published": "July 31, 2017"
+      "name": "Key Life Network",
+      "slug": "key-life-network",
+      "date": "2017 - 2018",
+      "tags": ["user experience design", "user research", "data analysis", "information architecture", "user stories", "process flows", "wire frames", "prototypes", "front-end development"],
+      "problem": "A brand new startup needed a web presence to describe their business to potential clients and convert visitors into new leads.",
+      "challenge": "As a new business, the team had limited company work to show, requiring the site itself to stand in as a differentiator to hook potential clients and convince them to reach out."
     },
     {
-      "url": "#/articles/article-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Long Article Title Goes Here and Here",
-      "excerpt": "This is also an excerpt of the article",
-      "author": "Steve Brown",
-      "published": "July 30, 2017"
+      "name": "Blue Letter Bible",
+      "slug": "blue-letter-bible",
+      "date": "2016 - 2017",
+      "tags": ["user experience design", "user research", "user interviews", "data analysis", "wire frames", "front-end development"],
+      "problem": "A brand new startup needed a web presence to describe their business to potential clients and convert visitors into new leads.",
+      "challenge": "As a new business, the team had limited company work to show, requiring the site itself to stand in as a differentiator to hook potential clients and convince them to reach out."
     },
     {
-      "url": "#/articles/article-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Super Long Article Title Goes Here and Here and Here",
-      "excerpt": "Excerpt for the article goes here and here.",
-      "author": "Robin DeMurga",
-      "published": "July 29, 2017"
+      "name": "Revive Our Hearts",
+      "slug": "revive-our-hearts",
+      "date": "2015 - 2016",
+      "tags": ["user research", "data analysis"],
+      "problem": "A brand new startup needed a web presence to describe their business to potential clients and convert visitors into new leads.",
+      "challenge": "As a new business, the team had limited company work to show, requiring the site itself to stand in as a differentiator to hook potential clients and convince them to reach out."
     },
     {
-      "url": "#/articles/article-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Short Article Title",
-      "excerpt": "This is also an excerpt of the article.",
-      "author": "Chad West",
-      "published": "July 28, 2017"
+      "name": "Incipia",
+      "slug": "incipia",
+      "date": "2015 - 2016",
+      "tags": ["user experience design", "data analysis", "wire frames", "front-end development"],
+      "problem": "A brand new startup needed a web presence to describe their business to potential clients and convert visitors into new leads.",
+      "challenge": "As a new business, the team had limited company work to show, requiring the site itself to stand in as a differentiator to hook potential clients and convince them to reach out."
     },
     {
-      "url": "#/articles/article-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Article Title Goes Here",
-      "excerpt": "This is an excerpt of the article.",
-      "author": "Zach Van Dyke",
-      "published": "July 27, 2017"
+      "name": "Life Action",
+      "slug": "life-action",
+      "date": "2017 - 2018",
+      "tags": ["user research", "user experience design", "data analysis", "information architecture", "process flows", "wire frames"],
+      "problem": "A brand new startup needed a web presence to describe their business to potential clients and convert visitors into new leads.",
+      "challenge": "As a new business, the team had limited company work to show, requiring the site itself to stand in as a differentiator to hook potential clients and convince them to reach out."
+    },
+    {
+      "name": "Mission Health",
+      "slug": "mission-health",
+      "date": "2017 - 2018",
+      "tags": ["user research", "data analysis", "information architecture", "website design", "front-end development", "WordPress"],
+      "problem": "A brand new startup needed a web presence to describe their business to potential clients and convert visitors into new leads.",
+      "challenge": "As a new business, the team had limited company work to show, requiring the site itself to stand in as a differentiator to hook potential clients and convince them to reach out."
     }
   ],
-  "programs": [
+  "social_links": [
     {
-      "url": "#/programs/program-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Program Title Goes Here",
-      "excerpt": "This is an excerpt of the program content.",
-      "author": "Erik Guzman",
-      "published": "July 31, 2017"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/alexanderkwright/"
     },
     {
-      "url": "#/programs/program-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Long program Title Goes Here and Here",
-      "excerpt": "This is also an excerpt of the program",
-      "author": "Steve Brown",
-      "published": "July 30, 2017"
+      "name": "Dribbble",
+      "url": "https://dribbble.com/akwright"
     },
     {
-      "url": "#/programs/program-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Super Long program Title Goes Here and Here and Here",
-      "excerpt": "Excerpt for the program goes here and here.",
-      "author": "Robin DeMurga",
-      "published": "July 29, 2017"
+      "name": "Codepen",
+      "url": "https://codepen.io/akwright/"
     },
     {
-      "url": "#/programs/program-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Short program Title",
-      "excerpt": "This is also an excerpt of the program.",
-      "author": "Chad West",
-      "published": "July 28, 2017"
+      "name": "Github",
+      "url": "https://github.com/akwright"
     },
     {
-      "url": "#/programs/program-name.html",
-      "image": "http://placehold.it/300x150",
-      "title": "Program Title Goes Here",
-      "excerpt": "This is an excerpt of the program.",
-      "author": "Zach Van Dyke",
-      "published": "July 27, 2017"
+      "name": "Instagram",
+      "url": "https://www.instagram.com/alexanderkwright/"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com/user/alexanderkwright"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/akwright"
     }
   ]
 }

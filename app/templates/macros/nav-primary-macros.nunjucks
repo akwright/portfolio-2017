@@ -1,7 +1,7 @@
-{% macro active(activePage='search') %}
+{% macro active(activePage='case-studies') %}
 <nav class="header-nav" role="navigation">
   <ul>
-    {% for i in ['search', 'articles', 'programs', 'authors', 'topics', 'products', 'support'] %}
+    {% for i in ['case-studies', 'contact-me'] %}
       <li><a class="{% if activePage == i %}active{% endif %}" href="{{ i }}">{{ i | title }}</a></li>
     {% endfor %}
   </ul>

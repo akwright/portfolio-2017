@@ -114,7 +114,7 @@ gulp.task('html', ['cssmin'], () => {
       'inline': true,
       'extract': true,
       'minify': true,
-      'css': ['./build/css/style.css']
+      'css': ['./build/css/akwright.css']
     }))
     .pipe(gulp.dest('build'));
 });

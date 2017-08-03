@@ -1,19 +1,10 @@
 <header class="site-header" role="header">
-    <a class="header-logo" href=""></a>
+    <a class="header-logo" href="/">
+      <img src="images/akwright-logo.svg" alt="Alex Wright logo">
+    </a>
 
     {% import 'macros/nav-primary-macros.nunjucks' as nav %}
-    {{ nav.active('search') }}
+    {{ nav.active('contact-me') }}
 
-    <hr class="header-sep">
-
-    {% import 'macros/nav-secondary-macros.nunjucks' as secondary_nav %}
-    {{ secondary_nav.active('about') }}
-
-    <hr class="header-sep">
-
-    <div class="header-account  account">
-      {% import 'macros/account-macros.nunjucks' as account %}
-      {{ account.loggedIn(true) }}
-      
-    </div>
+    <p class="header-tagline" role="description">User Research, User Experience Design, Front-End Development</p>
   </header>

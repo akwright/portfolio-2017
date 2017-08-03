@@ -1,0 +1,21 @@
+{% extends "layout.nunjucks" %}
+
+{% block page_title %}Want to work together? Contact Me - User Research, User Experience Design, and Front-End Development by Alex Wright{% endblock %}
+
+{% block page_class %}site--contact-me{% endblock %}
+
+{% block site_content %}
+  <h1>Have a great idea?<br><strong>Let's chat!</strong></h1>
+  <h3>Email</h3>
+  <a href="mailto:hello@akwright.com">hello [at] akwright.com</a>
+  <h3>Socialize</h3>
+  <ul class="social-list">
+    {% for social in social_links %}
+      <li><a href="{{ social.url }}" target="_blank">{{ social.name | title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+
+{% block site_image %}
+  <img src="images/desk.jpg" alt="My desk.">
+{% endblock %}

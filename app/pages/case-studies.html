@@ -1,0 +1,17 @@
+{% extends "layout.nunjucks" %}
+
+{% block page_title %}Case Studies - User Research, User Experience Design, and Front-End Development by Alex Wright{% endblock %}
+
+{% block page_class %}site--case-studies{% endblock %}
+
+{% block site_content %}
+  <ul class="case-studies">
+    {% for case in case_studies %}
+      <li><a href="/case-studies/{{ case.slug }}/">{{ case.name | title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+
+{% block site_image %}
+  <img src="images/desk.jpg" alt="My desk.">
+{% endblock %}

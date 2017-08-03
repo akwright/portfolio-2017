@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Key Life Network Interactive Prototype</title>
-  <link rel="stylesheet" href="css/app.css">
-</head>
-<body class="site">
-  {% include "partials/header.nunjucks" %}
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{% block page_title %}{% endblock %}</title>
+    <link rel="stylesheet" href="css/akwright.css">
+  </head>
+  <body class="site {% block page_class %}{% endblock %}">
 
-  <main class="site-content {% block page_class %}{% endblock %}" role="content">
-    {% block site_content %}{% endblock %}
+    {% include "partials/header.nunjucks" %}
+
+    <section class="site-content" role="content">
+      {% block site_content %}{% endblock %}
+    </section>
+
+    <aside class="site-image" role="complementary">
+      {% block site_image %}{% endblock %}
+    </aside>
 
     {% include "partials/footer.nunjucks" %}
-  </main>
 
-  <script src="js/bundle.js"></script>
+    <script src="js/bundle.js"></script>
 
-</body>
+  </body>
+</html>
