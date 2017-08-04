@@ -2,13 +2,16 @@
   @supports(display: grid) {
     display: grid;
     grid-template-columns: 100% repeat(12, [col] 1fr);
-    grid-template-areas: "content  content"
-                         "header  header";
+    grid-template-areas: "header"
+                         "content"
+                         "image"
+                         "footer";
 
     @media (min-width: 600px) {
       grid-template-columns: 200px repeat(12, [col] 1fr);
-      grid-template-areas: "header  content"
-                           "header  content";
+      grid-template-areas: "header  image"
+                           "content  image"
+                           "footer  image";
     }
 
     &-header {
@@ -21,6 +24,16 @@
 
     &-content {
       grid-area: content;
+      grid-column: span 12;
+    }
+
+    &-image {
+      grid-area: image;
+      grid-column: span 12;
+    }
+
+    &-footer {
+      grid-area: footer;
       grid-column: span 12;
     }
   }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60">
+    <title>Alex Wright Logo</title>
+    <defs>
+        <linearGradient x1="60.78125%" y1="13.7760417%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#11B7D9" offset="0%"></stop>
+            <stop stop-color="#6C09C1" offset="47.2047225%"></stop>
+            <stop stop-color="#F88752" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---Mobile" transform="translate(-30.000000, -20.000000)" fill="url(#linearGradient-1)">
+            <g id="Header" transform="translate(30.000000, 20.000000)">
+                <path d="M10,40 L19.9772222,20.0458333 L28.7852778,42.4291667 L20,60 L0,60 L10,40 Z M30,0 L40,20 L50,40 L60,60 L40,60 L30.1863889,40.3727778 L30.1861111,40.3725 L30,40 L30,40.0002778 L19.9916667,20.0163889 L20,20 L30,0 Z" id="Logo"></path>
+            </g>
+        </g>
+    </g>
+</svg>

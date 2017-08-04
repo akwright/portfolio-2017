@@ -43,9 +43,9 @@ gulp.task('scripts', () => {
     'entries': ['./app/assets/js/main.js'],
     'debug': true,
     'transform': [
-      babelify.configure({
+      'babelify', {
         'presets': ['es2015']
-      })
+      }
     ]
   })
   .bundle()
